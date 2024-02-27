@@ -1,10 +1,20 @@
+import NavManu from "./NavManu";
 import ThemeModeButton from "./ThemeModeButton";
+import { Separator } from "@/components/ui/separator";
 
 const NavBar = () => {
   return (
-    <div className="flex flex-rows justify-between px-32 py-2 itmes-centers">
-      <div className="text-3xl font-bold ">LHS</div>
-      <ThemeModeButton />
+    <div className="sticky top-0">
+      <div className="flex flex-rows justify-between px-5 sm:px-32 py-3 sm:py-5 itmes-centers">
+        <div className="sm:text-3xl font-bold font-mono self-center">
+          {"< L H S />"}
+        </div>
+        <div className="flex flex-rows">
+          <NavManu />
+          <ThemeModeButton />
+        </div>
+      </div>
+      <Separator />
     </div>
   );
 };
