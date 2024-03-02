@@ -1,6 +1,6 @@
 const AboutMe = () => {
   return (
-    <div className="flex flex-col items-center px-36 pb-56 pt-20">
+    <div className="flex flex-col items-center px-36 pb-32">
       <div className="font-mono font-bold text-3xl mb-20">About Me</div>
       <div className="flex flex-row gap-5">
         <div className="flex font-bold font-mono text-2xl border-2 p-2 rounded-xl w-[500px] h-[280px] items-center">
