@@ -15,7 +15,7 @@ const NavMenuItem = ({ MouseEvent, condition, icon, title }: Props) => {
       onMouseOver={() => MouseEvent(true)}
       onMouseLeave={() => MouseEvent(false)}
     >
-      <span className="w-10 flex justify-center text-lg">
+      <span className="w-10 flex justify-center text-base">
         {condition ? icon : title}
       </span>
     </Button>

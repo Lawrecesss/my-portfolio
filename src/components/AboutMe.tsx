@@ -11,7 +11,7 @@ const AboutMe = () => {
             and team player. Dedicated to contribute expertise and creatvity.
           </span>
           <span className="font-semibold text-base px-3 mt-5 text-justify">
-            University Journey and Skill Development
+            My University Journey and Skill Development
           </span>
           <span className="text-sm font-normal px-3 mt-3 text-justify">
             During my university years, I encountered various challenges and
@@ -33,9 +33,9 @@ const AboutMe = () => {
             </span>
           </span>
           <span className="text-sm font-normal px-3 my-1 text-justify">
-            As extracurricular activites, I participated a hackathon hosted by{" "}
-            <span className="font-bold">Curtin Singapore x ComSSA </span>and I
-            am currently a{" "}
+            As extracurricular activites, I participated in a hackathon hosted
+            by <span className="font-bold">Curtin Singapore x ComSSA </span>and
+            I am currently a{" "}
             <span className="font-bold">42 Singapore Pisciner.</span>
           </span>
         </div>

@@ -1,24 +1,18 @@
-import { Github, Linkedin } from "lucide-react";
+import { Github, Instagram, Linkedin } from "lucide-react";
 import { Button } from "./ui/button";
 
 const Home = () => {
   return (
     <div className="flex flex-row px-36 py-56 justify-center">
       <div className="flex flex-col justify-items-center items-center gap-5">
-        <div className="text-lg text-gray-500 font-bold font-mono">
-          Hello, I'm
-        </div>
-        <div className="text-5xl font-bold  font-mono">Lin Htet Shein</div>
-        <div className="text-2xl font-bold text-gray-500 font-mono">
+        <div className="text-lg text-gray-500 font-bold">Hello, I'm</div>
+        <div className="text-5xl font-bold ">Lin Htet Shein</div>
+        <div className="text-2xl font-bold text-gray-500">
           Frontend Developer
         </div>
         <div>
-          <Button className="rounded-full mx-2 font-mono mb-5 h-12">
-            Download CV
-          </Button>
-          <Button className="rounded-full mx-2 font-mono mb-5 h-12">
-            Contact Info
-          </Button>
+          <Button className="rounded-full mx-2 mb-5 h-12">Download CV</Button>
+          <Button className="rounded-full mx-2  mb-5 h-12">Contact Info</Button>
         </div>
         <div className="">
           <Button className="rounded-full p-2 mx-2 h-12 w-12">
@@ -32,6 +26,9 @@ const Home = () => {
             <Github
               onClick={() => (location.href = "https://github.com/Lawrecesss")}
             ></Github>
+          </Button>
+          <Button className="rounded-full p-2 mx-2 h-12 w-12">
+            <Instagram></Instagram>
           </Button>
         </div>
       </div>
