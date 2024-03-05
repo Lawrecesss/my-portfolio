@@ -9,7 +9,7 @@ export default function NavManu() {
   const [onProjects, setOnProjects] = useState(false);
   const [onContact, setOnContact] = useState(false);
   return (
-    <div className="mx-32 font-mono sm:flex hidden gap-10 items-center">
+    <div className="mx-32 sm:flex hidden gap-10 items-center">
       <NavMenuItem
         MouseEvent={setOnHome}
         condition={onHome}

@@ -6,6 +6,8 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { Button } from "./ui/button";
+import { ChevronRight } from "lucide-react";
 const projects = [
   {
     id: 0,
@@ -48,7 +50,7 @@ const Projects = () => {
             <CarouselItem key={project.id} className="sm:basis-1/2">
               <div className="p-1">
                 <Card className="p-6">
-                  <CardContent className="flex sm:h-[400px] h-[300px] flex-col items-center">
+                  <CardContent className="flex sm:h-[450px] h-[300px] flex-col items-center">
                     <span className="text-lg font-semibold mb-5">
                       {project.name}
                     </span>
@@ -56,6 +58,9 @@ const Projects = () => {
                       src={project.preview}
                       className="w-[350px] h-[350px] rounded-xl"
                     />
+                    <Button className="m-5 rounded-2xl">
+                      Check <ChevronRight size={20} className="ml-1" />
+                    </Button>
                   </CardContent>
                 </Card>
               </div>
