@@ -79,6 +79,7 @@ module.exports = {
       },
       fontFamily: {
         rubik: "Rubik Glitch Pop",
+        nunito: "Nunito",
       },
     },
   },
