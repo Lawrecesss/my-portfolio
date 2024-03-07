@@ -11,11 +11,11 @@ interface Props {
 const NavMenuItem = ({ MouseEvent, condition, icon, title }: Props) => {
   return (
     <Button
-      className="bg-inherit text-inherit hover:bg-inherit"
+      className="bg-inherit text-nav hover:bg-inherit hover:text-inherit"
       onMouseOver={() => MouseEvent(true)}
       onMouseLeave={() => MouseEvent(false)}
     >
-      <span className="w-10 flex justify-center text-base">
+      <span className="w-10 flex justify-center text-lg font-light">
         {condition ? icon : title}
       </span>
     </Button>
