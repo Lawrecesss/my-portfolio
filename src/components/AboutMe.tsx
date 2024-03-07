@@ -1,9 +1,9 @@
 const AboutMe = () => {
   return (
     <div className="flex flex-col items-center px-36 pb-32">
-      <div className=" font-bold text-3xl mb-20">About Me</div>
+      <h1 className=" font-bold text-3xl mb-20">About Me</h1>
       <div className="flex flex-row gap-5">
-        <div className="flex flex-col font-bold text-2xl border-2 p-2 rounded-xl w-[500px] h-[450px]">
+        <div className="flex flex-col font-bold text-2xl shadow-shadow rounded-md p-2 w-[500px] h-[450px]">
           <span className="text-sm font-normal p-3 text-justify">
             Fresh computer science graduate who aspires frontend development and
             egar to provide fascinating user expriences. Strong interest in AI

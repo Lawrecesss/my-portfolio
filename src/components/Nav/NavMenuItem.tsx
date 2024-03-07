@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
 
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 
 interface Props {
   MouseEvent: React.Dispatch<React.SetStateAction<boolean>>;
