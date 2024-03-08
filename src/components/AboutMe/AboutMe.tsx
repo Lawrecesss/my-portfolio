@@ -1,15 +1,12 @@
+import dark from "src/assets/dark.png";
+import light from "src/assets/light.png";
+
 const AboutMe = () => {
   return (
     <div className="p-20 my-20 grid grid-cols-2">
       <div>
-        <img
-          src="https://github.com/Lawrecesss/my-portfolio/blob/main/src/assets/light.png"
-          className="w-[400px] dark:scale-0 dark:hidden"
-        />
-        <img
-          src="https://github.com/Lawrecesss/my-portfolio/blob/main/src/assets/dark.png"
-          className="hidden w-[400px] dark:block"
-        />
+        <img src={light} className="w-[400px] dark:scale-0 dark:hidden" />
+        <img src={dark} className="hidden w-[400px] dark:block" />
       </div>
       <div>
         <h1 className="text-nav font-light text-3xl text-center font-nunito mb-10">
