@@ -5,11 +5,11 @@ const Hero = () => {
   return (
     <div className="py-32 flex flex-row justify-between">
       <div>
-        <h6 className="text-xl font-bold font-nunito text-nav">Hello, I'm</h6>
-        <h1 className="text-7xl font-bold font-nunito my-5 text-nav">
+        <h6 className="text-xl font-light font-nunito text-nav">Hello, I'm</h6>
+        <h1 className="text-7xl font-semibold font-nunito my-5 text-nav">
           Lin Htet Shein
         </h1>
-        <h3 className="text-4xl font-bold font-nunito text-nav">
+        <h3 className="text-4xl font-medium font-nunito text-nav">
           Frontend Developer
         </h3>
         <p className="text-xl my-5 font-nunito font-medium text-justify">

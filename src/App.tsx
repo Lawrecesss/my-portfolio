@@ -1,6 +1,7 @@
 import AboutMe from "./components/AboutMe/AboutMe";
 import Hero from "./components/Hero/Hero";
 import NavBar from "./components/Nav/NavBar";
+import Skills from "./components/Skill/Skills";
 import { ThemeProvider } from "./components/Theme/ThemeProvider";
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
         <NavBar />
         <Hero />
         <AboutMe />
+        <Skills />
       </div>
     </ThemeProvider>
   );
