@@ -3,11 +3,11 @@ const AboutMe = () => {
     <div className="p-20 my-20 grid grid-cols-2">
       <div>
         <img
-          src="src/assets/light.png"
+          src="https://github.com/Lawrecesss/my-portfolio/blob/main/src/assets/light.png"
           className="w-[400px] dark:scale-0 dark:hidden"
         />
         <img
-          src="src/assets/dark.png"
+          src="https://github.com/Lawrecesss/my-portfolio/blob/main/src/assets/dark.png"
           className="hidden w-[400px] dark:block"
         />
       </div>
