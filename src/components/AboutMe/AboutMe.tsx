@@ -1,5 +1,5 @@
-import dark from "src/assets/dark.png";
-import light from "src/assets/light.png";
+import dark from "../../assets/dark.png";
+import light from "../../assets/light.png";
 
 const AboutMe = () => {
   return (
