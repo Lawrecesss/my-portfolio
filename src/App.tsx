@@ -1,6 +1,7 @@
 import AboutMe from "./components/AboutMe/AboutMe";
 import Hero from "./components/Hero/Hero";
 import NavBar from "./components/Nav/NavBar";
+import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skill/Skills";
 import { ThemeProvider } from "./components/Theme/ThemeProvider";
 
@@ -12,6 +13,7 @@ const App = () => {
         <Hero />
         <AboutMe />
         <Skills />
+        <Projects />
       </div>
     </ThemeProvider>
   );
