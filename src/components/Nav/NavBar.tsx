@@ -4,7 +4,7 @@ import ThemeModeButton from "../Theme/ThemeModeButton";
 
 const NavBar = () => {
   return (
-    <div className="sticky top-0 bg-white dark:bg-black">
+    <div className=" sticky top-0 bg-white dark:bg-black">
       <div className="flex flex-rows justify-between sm:py-5">
         <div className="font-rubik text-center text-6xl text-nav font-medium">
           LHS
