@@ -10,7 +10,7 @@ export default function NavManu() {
   const [onContact, setOnContact] = useState(false);
   const [clicked, setClicked] = useState("");
   return (
-    <div className="mx-32 sm:flex hidden gap-10 px-2 py-1 items-center">
+    <div className="mx-32 sm:flex hidden gap-10 px-1 py-1 items-center">
       <NavMenuItem
         MouseEvent={setOnHome}
         condition={clicked == "Home" ? true : onHome}

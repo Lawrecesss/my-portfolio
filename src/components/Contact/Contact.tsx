@@ -3,7 +3,7 @@ import { Mail } from "lucide-react";
 const Contact = () => {
   return (
     <div
-      className="py-20 flex flex-row gap-36 items-center justify-center"
+      className="pb-44 flex flex-row gap-36 items-center justify-center"
       id="Contact"
     >
       <div>
