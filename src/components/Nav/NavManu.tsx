@@ -15,30 +15,35 @@ export default function NavManu() {
         condition={onHome}
         icon={<Home size={20} />}
         title="Home"
+        onClick="src/components/Hero"
       />
       <NavMenuItem
         MouseEvent={setOnAboutMe}
         condition={onAboutMe}
         icon={<User size={20} />}
         title="About Me"
+        onClick="src/components/AboutMe"
       />
       <NavMenuItem
         MouseEvent={setOnSkills}
         condition={onSkills}
         icon={<Award size={20} />}
         title="Skills"
+        onClick="src/components/Skill"
       />
       <NavMenuItem
         MouseEvent={setOnProjects}
         condition={onProjects}
         icon={<Blocks size={20} />}
         title="Projects"
+        onClick="src/components/Projects"
       />
       <NavMenuItem
         MouseEvent={setOnContact}
         condition={onContact}
         icon={<Mail size={20} />}
         title="Contact"
+        onClick="src/components/Contact"
       />
     </div>
   );

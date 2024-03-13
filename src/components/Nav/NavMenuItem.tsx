@@ -7,13 +7,21 @@ interface Props {
   condition: boolean;
   icon: ReactNode;
   title: string;
+  onClick: string;
 }
-const NavMenuItem = ({ MouseEvent, condition, icon, title }: Props) => {
+const NavMenuItem = ({
+  MouseEvent,
+  condition,
+  icon,
+  title,
+  onClick,
+}: Props) => {
   return (
     <Button
       className="bg-inherit text-nav hover:bg-inherit hover:text-inherit"
       onMouseOver={() => MouseEvent(true)}
       onMouseLeave={() => MouseEvent(false)}
+      onClick={() => (location.href = onClick)}
     >
       <span className="w-10 flex justify-center text-lg font-light">
         {condition ? icon : title}

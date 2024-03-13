@@ -6,7 +6,7 @@ const AboutMe = () => {
         <img src="dark.png" className="hidden w-[400px] dark:block" />
       </div>
       <div>
-        <h1 className="text-nav font-light text-3xl text-center font-nunito mb-10">
+        <h1 className="text-nav font-semibold text-3xl text-center font-nunito mb-10">
           My University Journey & Skill Developments
         </h1>
         <p className="font-light font-nunito text-justify mb-5">

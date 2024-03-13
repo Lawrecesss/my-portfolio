@@ -10,7 +10,7 @@ import {
 const Skills = () => {
   return (
     <div className="py-20">
-      <h1 className="text-4xl font-thin text-nav">
+      <h1 className="text-4xl font-light text-nav">
         Technologies I'm proficient in
       </h1>
       <div className="flex flex-row gap-10 flex-wrap justify-center">

@@ -11,7 +11,7 @@ import { projects } from "./ProjectItems";
 const Projects = () => {
   return (
     <div className="flex flex-col items-center gap-32 py-20">
-      <h1 className="text-3xl text-nav font-nunito font-light">Projects</h1>
+      <h1 className="text-3xl text-nav font-nunito font-semibold">Projects</h1>
       <Carousel
         opts={{
           align: "start",
