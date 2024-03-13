@@ -1,12 +1,9 @@
-import dark from "../../assets/dark.png";
-import light from "../../assets/light.png";
-
 const AboutMe = () => {
   return (
     <div className="p-20 my-20 grid grid-cols-2">
       <div>
-        <img src={light} className="w-[400px] dark:scale-0 dark:hidden" />
-        <img src={dark} className="hidden w-[400px] dark:block" />
+        <img src="light.png" className="w-[400px] dark:scale-0 dark:hidden" />
+        <img src="dark.png" className="hidden w-[400px] dark:block" />
       </div>
       <div>
         <h1 className="text-nav font-light text-3xl text-center font-nunito mb-10">

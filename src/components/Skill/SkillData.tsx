@@ -1,73 +1,69 @@
 export const frontendlist = [
   {
     title: "React",
-    image:
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FReact_%2528software%2529&psig=AOvVaw2O9rS0ryPZ6d7RrCSbWuGf&ust=1709953516455000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKjQsbHX44QDFQAAAAAdAAAAABAE",
+    image: "react.svg",
   },
   {
     title: "React Native",
-    image:
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FReact_%2528software%2529&psig=AOvVaw2O9rS0ryPZ6d7RrCSbWuGf&ust=1709953516455000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKjQsbHX44QDFQAAAAAdAAAAABAE",
+    image: "react_native.svg",
   },
   {
     title: "Tailwind CSS",
-    image:
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FReact_%2528software%2529&psig=AOvVaw2O9rS0ryPZ6d7RrCSbWuGf&ust=1709953516455000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKjQsbHX44QDFQAAAAAdAAAAABAE",
+    image: "Tailwind_CSS_Logo.svg",
   },
   {
     title: "HTML",
-    image:
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FReact_%2528software%2529&psig=AOvVaw2O9rS0ryPZ6d7RrCSbWuGf&ust=1709953516455000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKjQsbHX44QDFQAAAAAdAAAAABAE",
+    image: "HTML5_logo.svg",
   },
 ];
 
 export const designlist = [
   {
     title: "Figma",
-    image: "",
+    image: "Figma-logo.svg",
   },
   {
     title: "Canva",
-    image: "",
+    image: "canva.svg",
   },
 ];
 
 export const Languages = [
   {
     title: "JavaScript",
-    image: "",
+    image: "js.svg",
   },
   {
     title: "TypeScript",
-    image: "",
+    image: "ts.svg",
   },
   {
     title: "Python",
-    image: "",
+    image: "python.svg",
   },
 ];
 export const Backend = [
   {
     title: "Node.js",
-    image: "",
+    image: "Node.js_logo.svg",
   },
   {
     title: "Python",
-    image: "",
+    image: "python.svg",
   },
 ];
 
 export const Database = [
   {
     title: "Firebase",
-    image: "",
+    image: "firebase.svg",
   },
   {
     title: "MongoDB",
-    image: "",
+    image: "mongodb.svg",
   },
   {
     title: "MySQL",
-    image: "",
+    image: "mysql.svg",
   },
 ];

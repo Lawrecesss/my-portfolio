@@ -5,8 +5,8 @@ interface Props {
 
 const SkillItem = ({ image, title }: Props) => {
   return (
-    <div className="flex flex-row gap-5">
-      <img src={image} width={20} height={20} />
+    <div className="flex flex-row gap-5 my-5">
+      <img src={image} width={25} height={20} />
       <p>{title}</p>
     </div>
   );
