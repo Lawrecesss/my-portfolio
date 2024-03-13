@@ -1,6 +1,6 @@
 const AboutMe = () => {
   return (
-    <div className="p-20 my-20 grid grid-cols-2">
+    <div className="p-20 my-20 grid grid-cols-2" id="AboutME">
       <div>
         <img src="light.png" className="w-[400px] dark:scale-0 dark:hidden" />
         <img src="dark.png" className="hidden w-[400px] dark:block" />

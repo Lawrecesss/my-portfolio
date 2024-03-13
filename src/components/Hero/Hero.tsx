@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 
 const Hero = () => {
   return (
-    <div className="py-32 flex flex-row justify-between">
+    <div className="py-32 flex flex-row justify-between" id="Home">
       <div>
         <h6 className="text-xl font-light font-nunito text-nav">Hello, I'm</h6>
         <h1 className="text-7xl font-semibold font-nunito my-5 text-nav">

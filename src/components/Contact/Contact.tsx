@@ -2,7 +2,10 @@ import { Mail } from "lucide-react";
 
 const Contact = () => {
   return (
-    <div className="py-20 flex flex-row gap-36 items-center justify-center">
+    <div
+      className="py-20 flex flex-row gap-36 items-center justify-center"
+      id="Contact"
+    >
       <div>
         <h3 className="text-4xl font-semibold text-nav my-2">Let's chat.</h3>
         <h3 className="text-4xl font-semibold text-nav my-2">
